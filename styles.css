@@ -1,0 +1,116 @@
+/* GERAL
+***************/
+html, body{
+	height: 100%;
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #262829;
+	color: white;
+}
+
+.section-backgraund{
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 500px;
+}
+
+.section-container{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0,65);
+}
+
+.section-title{
+	text-align: center;
+	font-size: 30px;
+}
+
+.section-text{
+	padding: 40px;
+	margin: 0;
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.ancora{
+	position: absolute;
+	top: -85px;
+}
+
+/*HEADER
+************/
+.main-header{
+	position: relative;
+}
+
+.header-video{
+	width: 100%;
+}
+
+.navigation{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(grey, white);
+	/*background-color: grey;*/
+	z-index: 100;
+}
+
+.navigation-list{
+	padding: 0;
+	margin-left: 40%;
+}
+
+.navigation-list-item{
+	display: inline-block;
+	padding: 15px;
+}
+
+.nav-link{
+	color: white;
+	text-decoration: none;
+	font-size: x-large;
+}
+
+.nav-link:hover{
+	color: black;
+}
+
+
+.logo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1250px;
+	height: 550px;
+
+	/*max-width: 90%;*/
+	opacity: 0.4;
+}	
+/*A ACADEMIA
+***************/
+
+.academia{
+	background-image: url('./imagens/academia-jiu-jitsu.jpg');
+}
+
+/*FOOTER
+**********/
+
+.main-footer{
+	position: relative;
+	padding: 10px;
+	background: linear-gradient(white, grey 20%);
+}
+
+.footer-section{
+	display: inline-block;
+	width: 33%;
+}
